@@ -3,14 +3,14 @@
 __Welcome__ to this complete [JavaScript](https://www.javascript.com/) tutorial, enough to get you kickstarted into learning the _complete_ JavaScript language.
 
 ## Course Content:
-- What is JavaScript? 
-- Where does JavaScript code run?
-- Running JavaScript code on Google.
-- Running JavaScript code on an editor.
-- Installing Node.JS
-- Actual coding:
-    - Comments.
-    - Variables.
+- [What is JavaScript?](https://github.com/OldWizard209/JS-Crash-Course/tree/change#what-is-javascript) 
+- [Where does JavaScript code run?](https://github.com/OldWizard209/JS-Crash-Course/tree/change#where-does-javascript-code-run)
+- [Running JavaScript code on Google.](https://github.com/OldWizard209/JS-Crash-Course/tree/change#running-javascript-code-on-google)
+- [Running JavaScript code on an editor.](https://github.com/OldWizard209/JS-Crash-Course/tree/change#running-javascript-code-on-an-editor)
+- [Installing Node.JS](https://github.com/OldWizard209/JS-Crash-Course/tree/change#installing-nodejs)
+- [Actual coding](https://github.com/OldWizard209/JS-Crash-Course/tree/change#actual-coding)
+    - [Comments](https://github.com/OldWizard209/JS-Crash-Course/tree/change#comments).
+    - [Variables](https://github.com/OldWizard209/JS-Crash-Course/tree/change#variables).
         - What are variables?
         - Variables in JavaScript
         - Strings.
@@ -126,7 +126,7 @@ console.log("The comment is not code. YAYYY!!!");
 ### What are variables?
 Variables, the most important concept in JS and in any programming language, are used to store data temporarily in the computer's memory. So variable is we storing our data somewhere and allocating it with a name. With this, we can read the data at the given location  using the variable name later on and modify it the way we want. Think of variables like algebra. We assign a value to a variable like: `x = 5`. In this case, x is the variable. Here is a little metaphor to understand variables.:
 
-#### _Let's say we have a few boxes. Each box contains things like stationery, books, devices, etc. Then to remember what box contains what, we put a label on each of the boxes, with keywords. __"Stationery", "Books" "Devices".__ This way, we remember what thing is in what container. Variables are the same exact thing, but in programming. In programming, the variables' name would be the labels, the value in the variable would be the box contents, and the memory allocated into the computer, would be the box itself. _
+#### Let's say we have a few boxes. Each box contains things like stationery, books, devices, etc. Then to remember what box contains what, we put a label on each of the boxes, with keywords. __"Stationery", "Books" "Devices".__ This way, we remember what thing is in what container. Variables are the same exact thing, but in programming. In programming, the variables' name would be the labels, the value in the variable would be the box contents, and the memory allocated into the computer, would be the box itself.
 ***
 ### Variables in JavaScript.
 Up until the release of [ES6](https://en.wikipedia.org/wiki/ECMAScript), the standardized version of JavaScript, the practice of defining a variable in JavaScript was using the `var` keyword. But after its official release, defining a variable is best using `let`. There is a slight difference between these two keywords. The difference is the scope of the variable. The `var` keyowrd provides a global scope, meaning that it can be used in the entire function block. Where is `let`, is used in the _enclosing_ function block, meaning it can only be used in the function itself. For more info on this, read [this SO page](https://stackoverflow.com/questions/762011/whats-the-difference-between-using-let-and-var) that explicitly explains the differences between these two ways of defining variables.
